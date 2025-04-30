@@ -1,44 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MEMEMUSIC HIT FACTORY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
     body {
-      font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: #f2f2f2;
       margin: 0;
-      padding: 0;
-      background-size: 400% 400%;
-      animation: gradientBG 20s ease infinite;
-    }
-    @keyframes gradientBG {
-      0% {background-position: 0% 50%;}
-      50% {background-position: 100% 50%;}
-      100% {background-position: 0% 50%;}
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://images.unsplash.com/photo-1623052375643-2fba70c47247?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #eaeaea;
+      text-transform: uppercase;
     }
     .hero {
       text-align: center;
-      padding: 6rem 2rem 4rem;
-      background-image: url("banner.png");
-      background-size: cover;
-      background-position: center;
-      color: #fff;
-      text-shadow: 0 0 20px #000;
+      padding: 6rem 2rem;
+      background: rgba(0, 0, 0, 0.6);
     }
     .hero h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin-bottom: 1rem;
-      text-shadow: 0 0 30px #ff00cc;
+      text-shadow: 0 0 20px #ff00cc;
     }
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       max-width: 700px;
       margin: 0 auto 2rem;
+      text-shadow: 0 0 10px #000;
     }
     .cta-buttons {
       display: flex;
@@ -47,97 +38,121 @@
       gap: 1rem;
     }
     .cta-buttons a {
-      background: #ff00cc;
+      background: linear-gradient(135deg, #ff00cc, #6e00ff);
       color: #fff;
-      padding: 1rem 1.5rem;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 20px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      box-shadow: 0 0 15px rgba(255, 0, 204, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .cta-buttons a:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px #ff00cc;
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px rgba(255, 0, 204, 0.7);
     }
     .section {
       padding: 4rem 2rem;
-      max-width: 850px;
+      max-width: 900px;
       margin: 0 auto;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      margin-bottom: 2rem;
     }
     .section h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
       color: #ff00cc;
+      text-shadow: 0 0 10px #6e00ff;
     }
     .section p {
-      line-height: 1.6;
-      font-size: 1.1rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #ddd;
     }
     .footer {
       text-align: center;
       padding: 2rem;
-      font-size: 0.9rem;
-      background: #111;
+      background: #13111a;
       color: #777;
+      font-size: 0.9rem;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin: 2rem 0;
+    }
+    .social-links a {
+      background: rgba(255, 255, 255, 0.1);
+      color: #ff00cc;
+      padding: 0.6rem 0.9rem;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      transition: background 0.3s;
+    }
+    .social-links a:hover {
+      background: rgba(255, 0, 204, 0.3);
     }
   </style>
 </head>
 <body>
   <div class="hero">
     <h1>MEMEMUSIC HIT FACTORY</h1>
-    <p>Generate hits. Go viral. Get paid.<br>
-       A Web3 platform to create meme-music and earn through tokens.</p>
+    <p>Create Viral AI Tracks. Earn With Web3. Join The Meme Music Revolution.</p>
     <div class="cta-buttons">
-      <a href="#create">🎶 Create a track</a>
-      <a href="#dao">🗳️ Join the DAO</a>
-      <a href="https://t.me/mememusic_dao" target="_blank">📢 Telegram Channel</a>
-      <a href="https://t.me/mememusic_community" target="_blank">💬 Telegram Chat</a>
-      <a href="https://x.com/Meme__MUSIC" target="_blank">🐦 X (Twitter)</a>
-      <a href="https://www.tiktok.com/@meme..music" target="_blank">🔥 TikTok</a>
-      <a href="https://www.youtube.com/@mememusic_dao" target="_blank">📺 YouTube</a>
-      <a href="https://medium.com/@mememusic.community" target="_blank">✍️ Medium</a>
-      <a href="https://meme-music.gitbook.io/meme-music" target="_blank">📚 Gitbook</a>
+      <a href="#create">🎶 Create a Track</a>
+      <a href="#dao">🗳️ Join MMG DAO</a>
+    </div>
+    <div class="social-links">
+      <a href="https://t.me/mememusic_dao" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://t.me/mememusic_community" target="_blank"><i class="fas fa-users"></i></a>
+      <a href="https://x.com/Meme__MUSIC" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.tiktok.com/@meme..music" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/@mememusic_dao" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://medium.com/@mememusic.community" target="_blank"><i class="fab fa-medium"></i></a>
+      <a href="https://meme-music.gitbook.io/meme-music" target="_blank"><i class="fas fa-book"></i></a>
     </div>
   </div>
 
   <div class="section" id="create">
-    <h2>Create AI music in 1 click</h2>
+    <h2>Generate Tracks With AI</h2>
     <p>
-      Type your lyrics or use a template, generate a track using Suno or Udio, get cover art, mint an NFT.
-      If it's a hit — earn $MEMEMUSIC royalties from YouTube & TikTok.
+      Use Suno or Udio To Turn Your Ideas Into Meme Music. Add A Custom Cover. Mint It As An NFT. If Your Track Goes Viral — Earn $MEMEMUSIC Royalties From YouTube & TikTok.
     </p>
   </div>
 
   <div class="section" id="dao">
-    <h2>MMG DAO: Your power in meme-music</h2>
+    <h2>MMG DAO: Web3 Governance</h2>
     <p>
-      MMG token holders vote on which tracks we boost, select contest winners, and get a cut from paid NFTs.
-      Hold tokens — gain influence and earn with the community.
+      $MMG Is Our Governance Token On Polygon. Hold It To Vote On Tracks We Boost, Win Contests, And Earn A Cut Of NFT Drops. Influence The Label. Share The Rewards.
+    </p>
+    <p>
+      Join The DAO On Telegram And Help Us Shape The First Decentralized Meme Music Label.
     </p>
   </div>
 
   <div class="section">
-    <h2>Your music — your asset</h2>
+    <h2>Turn Memes Into Assets</h2>
     <p>
-      The best tracks get support from our community, rotation in TikTok via our meme network,
-      and become valuable NFT assets. Submit your track — let the DAO decide its fate.
+      The Best Tracks Get Community Support, TikTok Rotation Through Our Meme Account Network, And Become Valuable NFT Collectibles. Submit Your Track — Let The DAO Decide.
     </p>
   </div>
 
   <div class="section">
-    <h2>$MEMEMUSIC and $MMG tokens</h2>
+    <h2>MEMEMUSIC & MMG Tokens</h2>
     <p>
-      $MEMEMUSIC is a meme token on Solana and TRON. We don’t distribute it, but it's tradable and
-      usable for payments or speculation. It behaves like a real meme asset.
+      $MEMEMUSIC Tokens (Solana/TRON) Are Real Meme Assets. We Don’t Airdrop Them — They’re For Payment Or Speculation. It’s Pure Memecoin Energy.
     </p>
     <p>
-      $MMG is our governance token on Polygon. We use it for incentives, drops, and DAO voting.
-      It's the key to participation and revenue distribution on the platform.
+      $MMG (Polygon) Is The DAO Token. We Use It For Rewards, Voting And Participation. If You're In The Game — You're Holding MMG.
     </p>
   </div>
 
   <div class="footer">
-    © 2025 MEMEMUSIC. Your voice. Your charisma. Your industry.
+    © 2025 MEMEMUSIC. Your Sound. Your Signal. Your Industry.
   </div>
 </body>
 </html>
